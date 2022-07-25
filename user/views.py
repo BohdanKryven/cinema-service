@@ -16,3 +16,12 @@ class ManageUserView(generics.RetrieveUpdateAPIView):
 
     def get_object(self):
         return self.request.user
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql",
+#         "HOST": "localhost",
+#         "NAME": "cinema_db",
+#         "USER": "bohdan",
+#         "PASSWORD": "bohdan",
+#     }
+# }
